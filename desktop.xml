@@ -151,7 +151,7 @@
         </Input>
         <Output>
           <ActionID>KB_Keystroke</ActionID>
-          <MaxEventRate>1.0000</MaxEventRate>
+          <MaxEventRate>60.0000</MaxEventRate>
           <Modifiers>
             <Modifier>Control</Modifier>
           </Modifiers>
