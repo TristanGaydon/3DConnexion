@@ -145,9 +145,9 @@
         <Enabled>true</Enabled>
         <Input>
           <ActionID>HIDMultiAxis_Z</ActionID>
-          <Min>400</Min>
+          <Min>50</Min>
           <Max>511</Max>
-          <Deadband>400</Deadband>
+          <Deadband>330</Deadband>
         </Input>
         <Output>
           <ActionID>KB_Keystroke</ActionID>
