@@ -144,7 +144,7 @@
       <Axis>
         <Enabled>true</Enabled>
         <Input>
-          <ActionID>HIDMultiAxis_Z</ActionID>
+          <ActionID>HIDMultiAxis_Z</ActionID> 
           <Min>50</Min>
           <Max>511</Max>
           <Deadband>330</Deadband>
@@ -157,6 +157,48 @@
           </Modifiers>
           <KeyStroke>
             <Key>13</Key>
+          </KeyStroke>
+        </Output>
+      </Axis>
+	  <!-- Rewind -->
+	  <Axis>
+        <Enabled>true</Enabled>
+        <Input>
+          <ActionID>HIDMultiAxis_X</ActionID>
+          <Min>-512</Min>
+          <Max>50</Max>
+          <Deadband>200</Deadband>
+        </Input>
+        <Output>
+          <ActionID>KB_Keystroke</ActionID>
+          <MaxEventRate>2.0000</MaxEventRate>
+          <Modifiers>
+            <Modifier>Control</Modifier>
+			<Modifier>Shift</Modifier>
+          </Modifiers>
+          <KeyStroke>
+            <Key>50</Key>
+          </KeyStroke>
+        </Output>
+      </Axis>
+	  <!-- Fast Forward -->
+	  <Axis>
+        <Enabled>true</Enabled>
+        <Input>
+          <ActionID>HIDMultiAxis_X</ActionID>
+          <Min>50</Min>
+          <Max>511</Max>
+          <Deadband>200</Deadband>
+        </Input>
+        <Output>
+          <ActionID>KB_Keystroke</ActionID>
+          <MaxEventRate>2.0000</MaxEventRate>
+          <Modifiers>
+            <Modifier>Control</Modifier>
+			<Modifier>Shift</Modifier>
+          </Modifiers>
+          <KeyStroke>
+            <Key>4F</Key>
           </KeyStroke>
         </Output>
       </Axis>
